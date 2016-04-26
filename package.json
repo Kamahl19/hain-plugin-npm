@@ -1,6 +1,6 @@
 {
   "name": "hain-plugin-npm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hain plugin to search npmjs.com",
   "main": "index.js",
   "scripts": {
