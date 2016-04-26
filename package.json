@@ -1,0 +1,40 @@
+{
+  "name": "hain-plugin-npm",
+  "version": "1.0.0",
+  "description": "Hain plugin to search npmjs.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hain-0.1.0"
+  ],
+  "author": "Martin Litvaj <kamahl19@gmail.com>",
+  "license": "MIT",
+  "hain": {
+    "prefix": "/npm",
+    "usage": "/npm something",
+    "icon": "#fa fa-search",
+    "redirect": "/npm",
+    "group": "npm search"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamahl19/hain-plugin-npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kamahl19/hain-plugin-npm/issues"
+  },
+  "homepage": "https://github.com/kamahl19/hain-plugin-npm#readme",
+  "dependencies": {
+    "got": "^6.3.0",
+    "lodash.assign": "^4.0.8",
+    "lodash.orderby": "^4.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb-base": "^1.0.3",
+    "eslint-plugin-babel": "^3.2.0",
+    "eslint-plugin-import": "^1.5.0"
+  }
+}
